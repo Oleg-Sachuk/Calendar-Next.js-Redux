@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+hr {
+  background-color: white; 
+  height: 1px; 
+  border: 0; 
+}
+
+h3 {
+  margin: 25vh;
+}

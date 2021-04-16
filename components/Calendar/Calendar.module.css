@@ -1,0 +1,56 @@
+.calendar {
+    padding-top: 21vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    color: white;
+    text-align: center;
+}
+
+.calendar button {
+    background: none;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+.prev {
+    float:left
+}
+
+.next {
+    float:right
+}
+
+.calendar span {
+    text-align: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.day {
+    margin: 5px;
+}
+
+.actual {
+    color: black;
+    background-color: yellow;
+}
+
+.week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.date {
+    cursor: pointer;
+}

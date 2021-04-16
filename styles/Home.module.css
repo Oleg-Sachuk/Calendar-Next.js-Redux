@@ -1,40 +1,3 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -63,7 +26,6 @@
 }
 
 .code {
-  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -119,4 +81,66 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.calSec {
+  background-color: grey;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.subcontainer {
+  flex-grow: 1;
+}
+
+.left { 
+  width: 70%;
+  min-height: 85vh;
+  background: url('../public/artboard.png') no-repeat top left fixed;
+  float: left;
+}
+.right { width: 30%;
+  min-height: 85vh;
+  background: #272829 0% 0% no-repeat padding-box;   
+  margin-left: 70%;
+}
+
+.choose {
+  margin-top: 20vh;
+  margin-left: 50vh;
+  top: 365px;
+  left: 102.5vh;
+  width: 79vh;
+  height: 19vh;
+  font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-50)/64px var(--unnamed-font-family-rubik);
+  color: var(--unnamed-color-fdd000);
+  text-align: right;
+  font: normal normal normal 7.5vh/9.8vh Rubik;
+  letter-spacing: 0.5vh;
+  color: #FDD000;
+  text-transform: uppercase;
+}
+
+.enc {
+  margin-left: 50vh;
+  top: 365px;
+  left: 102.5vh;
+  width: 79vh;
+  height: 19vh;
+  text-align: right;
+  font: normal normal 300 30px/40px Rubik;
+  letter-spacing: 0.6px;
+  color: #DFDFDF;
+  opacity: 1;
+}
+
+.lorem {
+  margin-right: 25vh;
+  margin-left: 25vh;
+  margin-top: 10vh;
 }

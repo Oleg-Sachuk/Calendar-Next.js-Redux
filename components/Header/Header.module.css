@@ -1,0 +1,37 @@
+.navItem {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navFont {
+    text-align: left;
+    font: normal normal medium 28px/30px Rubik;
+    letter-spacing: 0.56px;
+    color: #3D3D3D;
+    text-transform: uppercase;
+}
+
+.logoCont {
+    display: grid;
+    min-width: 165px;
+    min-height: 50px;
+    grid-template-columns: 0.5fr 0.5fr 3.5fr;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.logoFont {
+    margin-top: 9px;
+    color: #3D3D3D;
+    letter-spacing: 0.56px;
+    text-align: left;
+    font: normal normal medium 28px/30px Rubik;
+    display: inline;
+}
+
+.logo {
+    margin-top: 5px
+}
+
+.navFont:hover {
+    cursor: pointer;
+}
