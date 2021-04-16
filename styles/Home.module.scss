@@ -117,10 +117,8 @@
   left: 102.5vh;
   width: 79vh;
   height: 19vh;
-  font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-50)/64px var(--unnamed-font-family-rubik);
-  color: var(--unnamed-color-fdd000);
   text-align: right;
-  font: normal normal normal 7.5vh/9.8vh Rubik;
+  font: calc(24px + 16 * (100vw/1280)) Rubik;
   letter-spacing: 0.5vh;
   color: #FDD000;
   text-transform: uppercase;

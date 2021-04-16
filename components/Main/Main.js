@@ -1,4 +1,4 @@
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/Home.module.scss';
 import CalendarContainer from '../Calendar/CalendarContainer';
 import PopUp from '../PopUp/PopUp';
 import { useEffect, useState } from 'react';

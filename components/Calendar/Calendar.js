@@ -1,6 +1,6 @@
 import moment from 'moment';
 import { useEffect, useRef, useState } from 'react';
-import style from './Calendar.module.css';
+import style from './Calendar.module.scss';
 
 const Calendar = (props) => {
     const date = new Date();

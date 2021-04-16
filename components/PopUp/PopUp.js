@@ -1,5 +1,5 @@
 import moment from 'moment';
-import style from './PopUp.module.css';
+import style from './PopUp.module.scss';
 
 const PopUp = (props) => {
     const date = new Date(props.year, props.month, props.day, 0, 0, 0, 0)
